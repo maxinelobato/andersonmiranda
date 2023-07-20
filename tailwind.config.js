@@ -5,14 +5,14 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  tailwindConfig: './styles/tailwind.config.js',
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
-    },
+        'bg1':"url('/anderson2.png')",
+        'bg2':"url('/anderson.png')",
+      }
+    }
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
