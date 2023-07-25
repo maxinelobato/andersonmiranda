@@ -30,7 +30,8 @@ export default function Investments() {
         </svg>
       ),
       title: "Credibilidade Comunidade TraderX",
-      subtitle: "A maior comunidade de Traders no Mercado Financeiro do Brasil",
+      subtitle:
+        "Nossos especialistas são formados e certificados na maior comunidade de Traders no Mercado Financeiro do Brasil",
     },
     {
       icon: (
@@ -45,9 +46,9 @@ export default function Investments() {
           <path d="M232,88.86V56a16,16,0,0,0-16-16H40A16,16,0,0,0,24,56V184a16,16,0,0,0,16,16H152v24a8,8,0,0,0,11.58,7.16L192,216.94l28.42,14.22A8,8,0,0,0,232,224V167.14a55.87,55.87,0,0,0,0-78.28ZM128,144H72a8,8,0,0,1,0-16h56a8,8,0,0,1,0,16Zm0-32H72a8,8,0,0,1,0-16h56a8,8,0,0,1,0,16Zm88,99.06-20.42-10.22a8,8,0,0,0-7.16,0L168,211.06V178.59a55.94,55.94,0,0,0,48,0ZM192,168a40,40,0,1,1,40-40A40,40,0,0,1,192,168Z"></path>
         </svg>
       ),
-      title: "Somos certificados myForexFunds e FTMO",
+      title: "Somos certificados FTMO e myForexFunds",
       subtitle:
-        "Só é possível passar na aprovação mediante a certificação das corretoras",
+        "Nossos especialistas tem certificação nas maiores corretoras do mundo",
     },
     {
       icon: (
@@ -62,8 +63,9 @@ export default function Investments() {
           <path d="M231.79,187.33A80,80,0,0,0,169.57,72.59,80,80,0,1,0,24.21,139.33l-7.66,26.82a14,14,0,0,0,17.3,17.3l26.82-7.66a80.15,80.15,0,0,0,25.75,7.63,80,80,0,0,0,108.91,40.37l26.82,7.66a14,14,0,0,0,17.3-17.3Zm-16.26,1.34,7.55,26.41-26.41-7.55a8,8,0,0,0-6,.68,64.06,64.06,0,0,1-86.32-24.64A79.93,79.93,0,0,0,174.7,89.71a64,64,0,0,1,41.51,92.93A8,8,0,0,0,215.53,188.67Z"></path>
         </svg>
       ),
-      title: "Atendimento em 1 minuto",
-      subtitle: "Temos uma equipe especialista no atendimento ao cliente",
+      title: "Atendimento Rápido",
+      subtitle:
+        "Temos uma equipe especialista no seu atendimento e para tirar todas as dúvidas que você tenha",
     },
     {
       icon: (
@@ -78,8 +80,9 @@ export default function Investments() {
           <path d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48ZM40,112H80v32H40Zm56,0H216v32H96ZM40,160H80v32H40Zm176,32H96V160H216v32Z"></path>
         </svg>
       ),
-      title: "Planilhas Semanais ou Quinzenais",
-      subtitle: "Saiba todo o progresso da sua conta para a sonhada aprovação",
+      title: "Planilhas Quinzenais",
+      subtitle:
+        "Saiba todo o progresso, transações operacionais e perdas da sua conta",
     },
     {
       icon: (
@@ -98,6 +101,23 @@ export default function Investments() {
       subtitle:
         "Após a conclusão das fases de aprovação, você irá assinar um contrato para começar a receber os lucros de uma conta real",
     },
+    // {
+    //   icon: (
+    //     <svg
+    //       xmlns="http://www.w3.org/2000/svg"
+    //       width="24"
+    //       height="24"
+    //       fill="currentColor"
+    //       viewBox="0 0 256 256"
+    //       className="h-10 w-10 text-orange-500"
+    //     >
+    //       <path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM68,96A12,12,0,1,1,80,84,12,12,0,0,1,68,96Zm40,0a12,12,0,1,1,12-12A12,12,0,0,1,108,96Z"></path>
+    //     </svg>
+    //   ),
+    //   title: "Painel da Corretora",
+    //   subtitle:
+    //     "Além das planilhas, após a aprovação da sua conta, você também terá acesso total na plataforma da corretora que você escolheu",
+    // },
   ];
 
   return (
@@ -106,13 +126,16 @@ export default function Investments() {
         <div className="bg-gradient-to-r from-stone-950">
           <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
             <div className="mx-auto max-w-5xl text-center">
-              <h1 className="max-w-3xl mb-6 font-sans text-3xl font-bold text-orange-400 sm:text-5xl md:mx-auto">
-                <span className="relative inline-block">
-                  <span className="relative bg-clip-text text-transparent bg-gradient-to-r from-orange-300 to-orange-500">
-                    Nós temos tudo o que você precisa para começar
-                  </span>
-                </span>
+              <h1 className="max-w-3xl mb-6 font-sans text-3xl font-bold text-white sm:text-5xl md:mx-auto">
+                <span className="text-orange-500">Transparência</span> e{" "}
+                <span className="text-orange-500">verdade</span> são os nossos
+                pilares!
               </h1>
+              <p className="text-center font-medium text-xs text-white md:text-lg md:mt-2 md:block">
+                Nosso objetivo é ajudar as pessoas a entenderem a importância
+                dos investimentos e como podem alcançar seus objetivos
+                financeiros
+              </p>
             </div>
 
             <div className="mt-14 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
