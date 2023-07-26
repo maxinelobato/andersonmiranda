@@ -80,7 +80,8 @@ export default function Hero() {
                     </h1>
                     <p className="text-center font-medium text-xs md:text-lg md:mt-2 md:block text-white">
                       Sem ousadia nos investimentos não se constrói grandes
-                      fortunas. Faça o seu dinheiro trabalhar pra você e não o contrário
+                      fortunas. Faça o seu dinheiro trabalhar pra você e não o
+                      contrário
                     </p>
                     <div className="pt-4">
                       <ul className="space-y-1">

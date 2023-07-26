@@ -101,23 +101,6 @@ export default function Investments() {
       subtitle:
         "Após a conclusão das fases de aprovação, você irá assinar um contrato para começar a receber os lucros de uma conta real",
     },
-    // {
-    //   icon: (
-    //     <svg
-    //       xmlns="http://www.w3.org/2000/svg"
-    //       width="24"
-    //       height="24"
-    //       fill="currentColor"
-    //       viewBox="0 0 256 256"
-    //       className="h-10 w-10 text-orange-500"
-    //     >
-    //       <path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM68,96A12,12,0,1,1,80,84,12,12,0,0,1,68,96Zm40,0a12,12,0,1,1,12-12A12,12,0,0,1,108,96Z"></path>
-    //     </svg>
-    //   ),
-    //   title: "Painel da Corretora",
-    //   subtitle:
-    //     "Além das planilhas, após a aprovação da sua conta, você também terá acesso total na plataforma da corretora que você escolheu",
-    // },
   ];
 
   return (

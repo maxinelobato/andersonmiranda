@@ -1,4 +1,5 @@
 import Image from "next/image";
+import BlogCards from "../BlogCards";
 
 export default function AboutForex() {
   const features = [
@@ -155,10 +156,10 @@ export default function AboutForex() {
                   alt="Image 1"
                 />
                 <Image
-                  className="object-cover w-20 h-20 rounded shadow-lg border-s-4 border-orange-500/80 shadow-orange-500/80 sm:h-32 xl:h-40 sm:w-32 xl:w-40"
+                  className="object-cover w-20 h-20 rounded shadow-lg border-s-4 border-orange-500/80 shadow-orange-500/80 sm:h-36 xl:h-44 sm:w-36 xl:w-48"
                   width={600}
                   height={600}
-                  src="https://images.unsplash.com/photo-1553729459-efe14ef6055d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                  src="https://images.unsplash.com/photo-1508240155128-3b7b40767aa1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1149&q=80"
                   alt="Image 2"
                 />
               </div>
@@ -167,12 +168,13 @@ export default function AboutForex() {
                   className="object-cover w-40 h-40 rounded shadow-lg border-s-4 border-orange-500/80 shadow-orange-500/80 sm:h-64 xl:h-80 sm:w-64 xl:w-80"
                   width={600}
                   height={600}
-                  src="https://images.unsplash.com/photo-1570961999607-df226979f156?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=436&q=80"
+                  src="https://images.unsplash.com/photo-1624150402111-9a54e5c2c798?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
                   alt="Image 3"
                 />
               </div>
             </div>
           </div>
+          <BlogCards />
         </div>
       </div>
     </>
