@@ -51,7 +51,7 @@ export default function Hero() {
   return (
     <>
       <div className="bg-no-repeat bg-fixed bg-cover bg-[url(https://images.unsplash.com/photo-1559526324-593bc073d938?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80)]">
-        <div className="bg-gradient-to-t from-stone-950">
+        <div className="bg-gradient-to-t from-stone-950 via-black/60 to-stone-900">
           <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-12">
             <div className="max-w-xl sm:mx-auto lg:max-w-3xl">
               <div className="flex flex-col sm:text-center sm:mb-0">
@@ -67,8 +67,7 @@ export default function Hero() {
                   </div>
                 </div>
                 <div className="max-w-full pb-10 md:mx-auto text-center lg:max-w-5xl md:mb-4">
-                  <div className="rounded-lg p-6 w-auto h-auto backdrop-blur-lg drop-shadow-lg bg-black/20">
-                    <h1 className="max-w-3xl mb-4 font-sans text-2xl font-bold text-orange-400 sm:text-5xl md:mx-auto">
+                    <h1 className="max-w-3xl mb-4 font-sans font-bold text-orange-400 text-3xl sm:text-5xl md:mx-auto">
                       <span className="relative inline-block">
                         <p className="relative text-white">
                           Quer investir no seu{" "}
@@ -98,7 +97,6 @@ export default function Hero() {
                           </li>
                         ))}
                       </ul>
-                    </div>
                   </div>
                 </div>
                 <div className="text-center -mt-4">

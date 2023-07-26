@@ -105,11 +105,11 @@ export default function Investments() {
 
   return (
     <>
-      <div className="bg-no-repeat bg-fixed bg-cover bg-[url(https://images.unsplash.com/photo-1608447714925-599deeb5a682?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80)]">
-        <div className="bg-gradient-to-r from-stone-950">
+      <div className="bg-no-repeat bg-fixed bg-cover bg-[url(https://images.unsplash.com/photo-1533659124865-d6072dc035e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80)]">
+        <div className="bg-gradient-to-b from-stone-950 via-black/60 to-stone-900">
           <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
             <div className="mx-auto max-w-5xl text-center">
-              <h1 className="max-w-3xl mb-6 font-sans text-3xl font-bold text-white sm:text-5xl md:mx-auto">
+              <h1 className="max-w-3xl mb-6 font-sans text-white text-3xl font-bold sm:text-5xl md:mx-auto">
                 <span className="text-orange-500">Transparência</span> e{" "}
                 <span className="text-orange-500">verdade</span> são os nossos
                 pilares!
@@ -125,7 +125,7 @@ export default function Investments() {
               {featuresinvestments.map((item, idx) => (
                 <div
                   key={idx}
-                  className="block p-8 transition border-l-4 border-orange-400 group backdrop-blur-lg rounded-lg bg-white/5 shadow-lg shadow-orange-400/70"
+                  className="block p-8 border-l-4 border-orange-400 group backdrop-blur-sm rounded-lg bg-white/5 shadow-lg shadow-orange-400/70"
                 >
                   <div>
                     {item.icon}

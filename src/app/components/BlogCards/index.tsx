@@ -5,15 +5,17 @@ export default function BlogCards() {
     {
       src: "/warrenbuffett.webp",
       title:
-        "“O risco vem de não saber o que você está fazendo.” - Warren Buffet",
+        "“O risco vem de não saber o que você está fazendo.”",
       subtitle:
         "É preciso saber onde se está pisando antes de tomar uma ação — e não é diferente no mundo dos investimentos.",
+        people: "Warren Buffet",
     },
     {
       src: "/gulhermecardoso.png",
       title:
-        "“Perdedores e ganhadores têm a mesma meta - ganhar, porém os ganhadores têm método.” - Guilherme Cardoso",
+        "“Perdedores e ganhadores têm a mesma meta - ganhar, porém os ganhadores têm método.”",
       subtitle: "O método protege suas operações.",
+      people: "Guilherme Cardoso",
     },
   ];
   return (
@@ -33,7 +35,7 @@ export default function BlogCards() {
           {blogcardnotice.map((item, idx) => (
             <article
               key={idx}
-              className="relative overflow-hidden rounded-lg shadow transition hover:shadow-lg"
+              className="rounded-lg shadow-lg shadow-orange-400/70 relative overflow-hidden"
             >
               <Image
                 alt="Blog Cards"
@@ -43,13 +45,16 @@ export default function BlogCards() {
                 height={600}
                 loading="lazy"
               />
-              <div className="relative hero-overlay bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
+              <div className="relative hero-overlay bg-black/60 pt-32 sm:pt-48 lg:pt-64">
                 <div className="p-4 sm:p-8">
-                  <h1 className="mt-0.5 text-xl font-medium uppercase text-white">
+                  <h1 className="mt-16 text-sm sm:text-xl font-medium uppercase text-white">
                     {item.title}
                   </h1>
                   <p className="mt-2 line-clamp-3 text-sm/relaxed text-white/95">
                     {item.subtitle}
+                  </p>
+                  <p className="mt-2 line-clamp-3 text-xs/relaxed font-bold text-white/95">
+                    {item.people}
                   </p>
                 </div>
               </div>
