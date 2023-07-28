@@ -9,25 +9,25 @@ function classNames(...classes: string[]) {
 
 export default function TabsPhases() {
   let [categories] = useState({
-    "1ª Fase de Avaliação": [
+    "1ª Fase Desafiante": [
       {
         id: 1,
         title:
           "O especialista precisa fazer 8% da conta, ou seja, em uma conta de $100k por exemplo é o equivalente a $8 mil dólares.",
       },
     ],
-    "2ª Fase de Aprovação": [
+    "2ª Fase de Verificação": [
       {
         id: 1,
         title:
           "O especialista precisa fazer 5% da conta, ou seja, em uma conta de $100k por exemplo é o equivalente a $5 mil dólares.",
       },
     ],
-    "Conta Real": [
+    "3ª Fase dos Lucros": [
       {
         id: 1,
         title:
-          "Após o especialista totalizar os 13% da conta, ou seja, em uma conta de $100k é o equivalente a $13 mil dólares, a conta será zerada para iniciar agora em Conta Real e você irá assinar um contrato de adesão conosco para a divisão dos lucros em 50% para você e 50% para o especialista.",
+          "Parabéns! Agora você já tem uma Conta Real, após o especialista totalizar os 13%, por exemplo, em uma conta de $100k é o equivalente a $13 mil dólares, a conta será zerada para iniciar agora em Conta Real e você irá assinar um contrato de adesão conosco para a divisão dos lucros em 50% para você e 50% para o especialista.",
       },
     ],
   });

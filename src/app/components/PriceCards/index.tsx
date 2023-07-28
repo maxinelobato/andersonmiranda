@@ -2,6 +2,7 @@
 
 import { Tab } from "@headlessui/react";
 import ButtonCTA from "../ButtonCTA";
+import Image from "next/image";
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
@@ -52,7 +53,13 @@ export default function PriceCards() {
                   )
                 }
               >
-                My Forex Funds
+                <Image
+                  alt="MFF"
+                  src="/mff.svg"
+                  width={200}
+                  height={100}
+                  loading="lazy"
+                />
               </Tab>
               <Tab
                 className={({ selected }) =>
@@ -65,7 +72,13 @@ export default function PriceCards() {
                   )
                 }
               >
-                FTMO
+                <Image
+                  alt="FTMO"
+                  src="/ftmo.svg"
+                  width={200}
+                  height={100}
+                  loading="lazy"
+                />
               </Tab>
             </Tab.List>
           </div>
