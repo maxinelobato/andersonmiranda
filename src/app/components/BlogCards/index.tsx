@@ -4,11 +4,10 @@ export default function BlogCards() {
   const blogcardnotice = [
     {
       src: "/warrenbuffett.webp",
-      title:
-        "“O risco vem de não saber o que você está fazendo.”",
+      title: "“O risco vem de não saber o que você está fazendo.”",
       subtitle:
         "É preciso saber onde se está pisando antes de tomar uma ação — e não é diferente no mundo dos investimentos.",
-        people: "Warren Buffet",
+      people: "Warren Buffet",
     },
     {
       src: "/gulhermecardoso.png",
@@ -16,6 +15,13 @@ export default function BlogCards() {
         "“Perdedores e ganhadores têm a mesma meta - ganhar, porém os ganhadores têm método.”",
       subtitle: "O método protege suas operações.",
       people: "Guilherme Cardoso",
+    },
+    {
+      src: "/thiagonigro.jpg",
+      title:
+        "“Se você não lutar pelo futuro que quer, vai ter que aceitar o futuro que vier.”",
+      subtitle: "Você precisa de uma decião.",
+      people: "Thiago Nigro",
     },
   ];
   return (
@@ -31,7 +37,7 @@ export default function BlogCards() {
           </p>
         </div>
 
-        <div className="mt-14 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2">
+        <div className="mt-14 grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-3">
           {blogcardnotice.map((item, idx) => (
             <article
               key={idx}
