@@ -56,10 +56,10 @@ export default function Hero() {
             <div className="max-w-xl sm:mx-auto lg:max-w-3xl">
               <div className="flex flex-col sm:text-center sm:mb-0">
                 <div className="mb-8 sm:mb-14 mx-auto">
-                  <div className="flex items-center justify-center w-12 h-12 sm:w-20 sm:h-20 rounded-full bg-teal-accent-400">
+                  <div className="flex items-center justify-center w-20 h-20 sm:w-28 sm:h-28 rounded-full bg-teal-accent-400">
                     <Image
-                      width={100}
-                      height={100}
+                      width={300}
+                      height={300}
                       src="/anderson_miranda.svg"
                       alt="Logo Anderson"
                       loading="lazy"
@@ -67,36 +67,36 @@ export default function Hero() {
                   </div>
                 </div>
                 <div className="max-w-full pb-10 md:mx-auto text-center lg:max-w-5xl md:mb-4">
-                    <h1 className="max-w-3xl mb-4 font-sans font-bold text-orange-400 text-3xl sm:text-5xl md:mx-auto">
-                      <span className="relative inline-block">
-                        <p className="relative text-white">
-                          Quer investir no seu{" "}
-                          <span className="text-orange-500">
-                            futuro e não sabe como?
-                          </span>
-                        </p>
-                      </span>
-                    </h1>
-                    <p className="text-center font-medium text-xs md:text-lg md:mt-2 md:block text-white">
-                      Sem ousadia nos investimentos não se constrói grandes
-                      fortunas. Faça o seu dinheiro trabalhar pra você e não o
-                      contrário
-                    </p>
-                    <div className="pt-4">
-                      <ul className="space-y-1">
-                        {features.map((item, idx) => (
-                          <li key={idx} className="flex gap-x-1 justify-center">
-                            <div className="flex-none w-6 h-6 text-orange-500 rounded-lg flex justify-center items-center">
-                              {item.icon}
-                            </div>
-                            <div>
-                              <h1 className="mt-1 text-white text-sm md:block">
-                                {item.title}
-                              </h1>
-                            </div>
-                          </li>
-                        ))}
-                      </ul>
+                  <h1 className="max-w-3xl mb-4 font-sans font-bold text-orange-400 text-3xl sm:text-5xl md:mx-auto">
+                    <span className="relative inline-block">
+                      <p className="relative text-white">
+                        Quer investir no seu{" "}
+                        <span className="text-orange-500">
+                          futuro e não sabe como?
+                        </span>
+                      </p>
+                    </span>
+                  </h1>
+                  <p className="text-center font-medium text-xs md:text-lg md:mt-2 md:block text-white">
+                    Sem ousadia nos investimentos não se constrói grandes
+                    fortunas. Faça o seu dinheiro trabalhar pra você e não o
+                    contrário
+                  </p>
+                  <div className="pt-4">
+                    <ul className="space-y-1">
+                      {features.map((item, idx) => (
+                        <li key={idx} className="flex gap-x-1 justify-center">
+                          <div className="flex-none w-6 h-6 text-orange-500 rounded-lg flex justify-center items-center">
+                            {item.icon}
+                          </div>
+                          <div>
+                            <h1 className="mt-1 text-white text-sm md:block">
+                              {item.title}
+                            </h1>
+                          </div>
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 </div>
                 <div className="text-center -mt-4">

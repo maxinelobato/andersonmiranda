@@ -15,8 +15,9 @@ export default function ButtonFloat() {
               data-tip="Precisa de ajuda?"
             >
               <div className="avatar online">
-                <div className="w-16 rounded-full">
+                <div className="w-12 rounded-full bg-black">
                   <Image
+                  className=""
                     alt="avatar"
                     width={300}
                     height={300}
