@@ -171,7 +171,7 @@ export default function Advantages() {
                 </div>
               ))}
             </div>
-            
+
             <PriceCards />
 
             <div className="max-w-5xl mt-6 md:mx-auto sm:text-center">
