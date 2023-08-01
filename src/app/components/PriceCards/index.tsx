@@ -331,7 +331,7 @@ export default function PriceCards() {
                       </h2>
                       <p className="mt-2 sm:mt-4">
                         <strong className="text-3xl font-bold text-orange-500 sm:text-4xl">
-                          $2.160
+                          €2.160
                         </strong>
                         <span className="text-sm font-medium text-white">
                           /Preço Único

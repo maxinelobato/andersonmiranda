@@ -50,7 +50,7 @@ export default function Hero() {
 
   return (
     <>
-      <div className="bg-no-repeat bg-fixed bg-cover bg-[url(https://images.unsplash.com/photo-1559526324-593bc073d938?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80)]">
+      <section className="bg-no-repeat bg-fixed bg-cover bg-[url(https://images.unsplash.com/photo-1559526324-593bc073d938?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80)]">
         <div className="bg-gradient-to-t from-stone-950 via-black/60 to-stone-900">
           <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-12">
             <div className="max-w-xl sm:mx-auto lg:max-w-3xl">
@@ -109,7 +109,7 @@ export default function Hero() {
             <ButtonArrowDown />
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }
