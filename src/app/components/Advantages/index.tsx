@@ -176,26 +176,14 @@ export default function Advantages() {
 
             <div className="max-w-5xl mt-6 md:mx-auto sm:text-center">
               <p className="text-center font-medium text-xs text-white md:text-lg md:block">
-                Após a compra da sua{" "}
+                Entenda como funciona a{" "}
                 <span className="text-orange-500">
                   Mesa Proprietária Americana
-                </span>
-                ,independente de qual escolher, o profissional irá passar nas
-                fases de{" "}
-                <span className="text-orange-500">avaliação e aprovação</span>,
-                dentro do prazo de{" "}
-                <span className="text-orange-500">até 90 dias</span>.
-              </p>
-              <p className="text-center font-medium text-xs text-white md:text-lg md:block">
-                Logo, será feita a migração para uma{" "}
-                <span className="text-orange-500">Conta Real em seu CPF</span>,
-                onde você irá fazer o seu primeiro saque. O saque dos lucros irá
-                cair diretamente na sua conta para então você nos retornar com
-                os{" "}
-                <span className="text-orange-500">50% desse investimento</span>.
+                </span> e as fases de{" "}
+                <span className="text-orange-500">avaliação e aprovação das corretoras</span>
               </p>
             </div>
-            <div className="max-w-md mx-auto">
+            <div className="max-w-xl mx-auto">
               <TabsPhases />
             </div>
           </div>

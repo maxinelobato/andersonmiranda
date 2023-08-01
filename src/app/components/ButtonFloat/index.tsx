@@ -20,7 +20,7 @@ export default function ButtonFloat() {
                     alt="avatar"
                     width={300}
                     height={300}
-                    src="/anderson_miranda.svg"
+                    src="/lborg.svg"
                     loading="lazy"
                   />
                 </div>
