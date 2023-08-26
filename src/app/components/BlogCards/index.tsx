@@ -28,7 +28,7 @@ export default function BlogCards() {
     <>
       <div className="mx-auto max-w-screen-xl px-4 py-16">
         <div className="mx-auto max-w-5xl text-center">
-          <p className="text-center font-medium text-xl text-white md:mt-2 md:block">
+          <p className="text-center font-medium text-2xl text-white md:mt-2 md:block">
             O que as{" "}
             <span className="text-orange-500">
               referências do mercado financeiro

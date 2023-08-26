@@ -11,7 +11,6 @@ export default function Advantages() {
           height="24"
           fill="currentColor"
           viewBox="0 0 256 256"
-          className="h-5 w-5 text-orange-500"
         >
           <path d="M243.33,90.91,114.92,219.31a16,16,0,0,1-22.63,0l-71.62-72a16,16,0,0,1,0-22.61l24-24a16,16,0,0,1,22.57-.06l36.64,35.27.11.11h0l92.73-91.37a16,16,0,0,1,22.58,0l24,23.56A16,16,0,0,1,243.33,90.91Z"></path>
         </svg>
@@ -26,7 +25,6 @@ export default function Advantages() {
           height="24"
           fill="currentColor"
           viewBox="0 0 256 256"
-          className="h-5 w-5 text-orange-500"
         >
           <path d="M243.33,90.91,114.92,219.31a16,16,0,0,1-22.63,0l-71.62-72a16,16,0,0,1,0-22.61l24-24a16,16,0,0,1,22.57-.06l36.64,35.27.11.11h0l92.73-91.37a16,16,0,0,1,22.58,0l24,23.56A16,16,0,0,1,243.33,90.91Z"></path>
         </svg>
@@ -41,7 +39,6 @@ export default function Advantages() {
           height="24"
           fill="currentColor"
           viewBox="0 0 256 256"
-          className="h-5 w-5 text-orange-500"
         >
           <path d="M243.33,90.91,114.92,219.31a16,16,0,0,1-22.63,0l-71.62-72a16,16,0,0,1,0-22.61l24-24a16,16,0,0,1,22.57-.06l36.64,35.27.11.11h0l92.73-91.37a16,16,0,0,1,22.58,0l24,23.56A16,16,0,0,1,243.33,90.91Z"></path>
         </svg>
@@ -56,7 +53,6 @@ export default function Advantages() {
           height="24"
           fill="currentColor"
           viewBox="0 0 256 256"
-          className="h-5 w-5 text-orange-500"
         >
           <path d="M243.33,90.91,114.92,219.31a16,16,0,0,1-22.63,0l-71.62-72a16,16,0,0,1,0-22.61l24-24a16,16,0,0,1,22.57-.06l36.64,35.27.11.11h0l92.73-91.37a16,16,0,0,1,22.58,0l24,23.56A16,16,0,0,1,243.33,90.91Z"></path>
         </svg>
@@ -71,7 +67,6 @@ export default function Advantages() {
           height="24"
           fill="currentColor"
           viewBox="0 0 256 256"
-          className="h-5 w-5 text-orange-500"
         >
           <path d="M243.33,90.91,114.92,219.31a16,16,0,0,1-22.63,0l-71.62-72a16,16,0,0,1,0-22.61l24-24a16,16,0,0,1,22.57-.06l36.64,35.27.11.11h0l92.73-91.37a16,16,0,0,1,22.58,0l24,23.56A16,16,0,0,1,243.33,90.91Z"></path>
         </svg>
@@ -86,7 +81,6 @@ export default function Advantages() {
           height="24"
           fill="currentColor"
           viewBox="0 0 256 256"
-          className="h-5 w-5 text-orange-500"
         >
           <path d="M243.33,90.91,114.92,219.31a16,16,0,0,1-22.63,0l-71.62-72a16,16,0,0,1,0-22.61l24-24a16,16,0,0,1,22.57-.06l36.64,35.27.11.11h0l92.73-91.37a16,16,0,0,1,22.58,0l24,23.56A16,16,0,0,1,243.33,90.91Z"></path>
         </svg>
@@ -101,7 +95,6 @@ export default function Advantages() {
           height="24"
           fill="currentColor"
           viewBox="0 0 256 256"
-          className="h-5 w-5 text-orange-500"
         >
           <path d="M243.33,90.91,114.92,219.31a16,16,0,0,1-22.63,0l-71.62-72a16,16,0,0,1,0-22.61l24-24a16,16,0,0,1,22.57-.06l36.64,35.27.11.11h0l92.73-91.37a16,16,0,0,1,22.58,0l24,23.56A16,16,0,0,1,243.33,90.91Z"></path>
         </svg>
@@ -116,7 +109,6 @@ export default function Advantages() {
           height="24"
           fill="currentColor"
           viewBox="0 0 256 256"
-          className="h-5 w-5 text-orange-500"
         >
           <path d="M243.33,90.91,114.92,219.31a16,16,0,0,1-22.63,0l-71.62-72a16,16,0,0,1,0-22.61l24-24a16,16,0,0,1,22.57-.06l36.64,35.27.11.11h0l92.73-91.37a16,16,0,0,1,22.58,0l24,23.56A16,16,0,0,1,243.33,90.91Z"></path>
         </svg>
@@ -131,7 +123,6 @@ export default function Advantages() {
           height="24"
           fill="currentColor"
           viewBox="0 0 256 256"
-          className="h-5 w-5 text-orange-500"
         >
           <path d="M243.33,90.91,114.92,219.31a16,16,0,0,1-22.63,0l-71.62-72a16,16,0,0,1,0-22.61l24-24a16,16,0,0,1,22.57-.06l36.64,35.27.11.11h0l92.73-91.37a16,16,0,0,1,22.58,0l24,23.56A16,16,0,0,1,243.33,90.91Z"></path>
         </svg>
@@ -146,14 +137,14 @@ export default function Advantages() {
         <section className="text-white">
           <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
             <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-screen-2xl md:mb-0">
-              <h1 className="max-w-3xl mb-6 font-sans text-3xl font-bold text-white sm:text-5xl md:mx-auto">
+              <h1 className="max-w-3xl mb-6 font-sans text-2xl sm:text-5xl font-bold text-white md:mx-auto">
                 Você já ouviu falar de <br />{" "}
                 <span className="text-orange-500">
                   Mesa Proprietária Americana
                 </span>
                 ?
               </h1>
-              <p className="text-center font-medium text-xs text-white md:text-lg md:mt-2 md:block">
+              <p className="text-center font-medium text-sm sm:text-base text-white md:mt-2 md:block">
                 É quando uma corretora americana disponibiliza um capital a um
                 único preço, sem que você arrisque o seu próprio capital
               </p>
@@ -162,11 +153,11 @@ export default function Advantages() {
             <div className="mt-8 grid grid-cols-1 gap-4 md:mt-16 md:grid-cols-2 md:gap-6 lg:grid-cols-3">
               {featuresadvantages.map((item, idx) => (
                 <div key={idx} className="flex items-start gap-4">
-                  <span className="shrink-0 rounded-lg border border-orange-500 bg-black p-1">
+                  <span className="shrink-0 w-8 h-8 text-orange-500 rounded-lg p-1">
                     {item.icon}
                   </span>
                   <div>
-                    <h2 className="text-sm font-medium">{item.title}</h2>
+                    <h2 className="mt-1 text-sm text-white">{item.title}</h2>
                   </div>
                 </div>
               ))}

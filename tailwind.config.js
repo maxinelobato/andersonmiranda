@@ -12,7 +12,7 @@ module.exports = {
         'bg1':"url('/anderson2.png')",
         'bg2':"url('/anderson.png')",
       }
-    }
+    },
   },
   plugins: [require("daisyui")],
 }

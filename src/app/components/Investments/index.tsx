@@ -109,12 +109,12 @@ export default function Investments() {
         <div className="bg-gradient-to-b from-stone-950 via-black/60 to-stone-900">
           <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
             <div className="mx-auto max-w-5xl text-center">
-              <h1 className="max-w-3xl mb-6 font-sans text-white text-3xl font-bold sm:text-5xl md:mx-auto">
+              <h1 className="max-w-3xl mb-6 font-sans text-white text-2xl sm:text-5xl font-bold md:mx-auto">
                 <span className="text-orange-500">Transparência</span> e{" "}
                 <span className="text-orange-500">verdade</span> são os nossos
                 pilares!
               </h1>
-              <p className="text-center font-medium text-xs text-white md:text-lg md:mt-2 md:block">
+              <p className="text-center font-medium text-sm sm:text-base text-white md:mt-2 md:block">
                 Nosso objetivo é ajudar as pessoas a entenderem a importância
                 dos investimentos e como podem alcançar seus objetivos
                 financeiros

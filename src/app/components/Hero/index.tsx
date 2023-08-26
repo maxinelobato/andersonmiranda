@@ -67,7 +67,7 @@ export default function Hero() {
                   </div>
                 </div>
                 <div className="max-w-full pb-10 md:mx-auto text-center lg:max-w-5xl md:mb-4">
-                  <h1 className="max-w-3xl mb-4 font-sans font-bold text-orange-400 text-3xl sm:text-5xl md:mx-auto">
+                  <h1 className="max-w-3xl mb-4 font-sans font-bold text-orange-400 text-2xl sm:text-5xl md:mx-auto">
                     <span className="relative inline-block">
                       <p className="relative text-white">
                         Quer investir no seu{" "}
@@ -77,10 +77,8 @@ export default function Hero() {
                       </p>
                     </span>
                   </h1>
-                  <p className="text-center font-medium text-xs md:text-lg md:mt-2 md:block text-white">
-                    Sem ousadia nos investimentos não se constrói grandes
-                    fortunas. Faça o seu dinheiro trabalhar pra você e não o
-                    contrário
+                  <p className="text-center font-medium text-sm sm:text-base md:mt-2 md:block text-white">
+                    Faça o seu dinheiro trabalhar pra você e não o contrário
                   </p>
                   <div className="pt-4">
                     <ul className="space-y-1">

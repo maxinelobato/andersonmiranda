@@ -124,7 +124,7 @@ export default function AboutForex() {
           <div className="grid gap-10 lg:grid-cols-2">
             <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
               <div className="max-w-xl mb-6">
-                <h1 className="max-w-3xl mb-6 font-sans text-3xl font-bold text-white sm:text-5xl md:mx-auto">
+                <h1 className="max-w-3xl mb-6 font-sans text-2xl sm:text-5xl font-bold text-white md:mx-auto">
                   Você sabe por que as pessoas investem no{" "}
                   <span className="text-orange-500">Mercado Financeiro</span>?
                 </h1>
