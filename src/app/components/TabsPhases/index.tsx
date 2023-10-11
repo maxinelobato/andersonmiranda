@@ -237,7 +237,9 @@ export default function TabsPhases() {
                 </div>
               </div>
               <div>
-                <p className="text-xl font-semibold sm:text-base">Recebimento em Conta</p>
+                <p className="text-xl font-semibold sm:text-base">
+                  Recebimento em Conta
+                </p>
                 <ul className="space-y-2">
                   <li className="flex items-center gap-1">
                     {iconstabsphases.iconorangesmall}

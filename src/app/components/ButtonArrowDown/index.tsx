@@ -2,8 +2,8 @@ export default function ButtonArrowDown () {
   return (
     <>
       <div
-        aria-label='Scroll down'
-        className='flex items-center justify-center w-10 h-10 mx-auto bg-black/30 text-orange-500 duration-300 transform border-2 border-orange-400 rounded-full hover:text-teal-accent-400 hover:border-teal-accent-400 hover:shadow hover:scale-110'
+        aria-label='Rolar para baixo'
+        className='flex items-center justify-center w-10 h-10 mx-auto bg-black/30 text-orange-500 border-2 border-orange-400 rounded-full'
       >
         <svg
           xmlns='http://www.w3.org/2000/svg'

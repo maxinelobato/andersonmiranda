@@ -30,7 +30,7 @@ export default function Hero() {
           <path d="M181.66,133.66l-80,80A8,8,0,0,1,88,208V48a8,8,0,0,1,13.66-5.66l80,80A8,8,0,0,1,181.66,133.66Z"></path>
         </svg>
       ),
-      title: "Conheça nossa comunidade",
+      title: "Acesso ao Clube do Livro e Áudios",
     },
     {
       icon: (
@@ -44,7 +44,7 @@ export default function Hero() {
           <path d="M181.66,133.66l-80,80A8,8,0,0,1,88,208V48a8,8,0,0,1,13.66-5.66l80,80A8,8,0,0,1,181.66,133.66Z"></path>
         </svg>
       ),
-      title: "Saiba diversificar sua renda",
+      title: "Network com Nossos Sócios",
     },
   ];
 
@@ -52,7 +52,7 @@ export default function Hero() {
     <>
       <section className="bg-no-repeat bg-fixed bg-cover bg-[url(https://images.unsplash.com/photo-1559526324-593bc073d938?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80)]">
         <div className="bg-gradient-to-t from-stone-950 via-black/60 to-stone-900">
-          <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-12">
+          <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
             <div className="max-w-xl sm:mx-auto lg:max-w-3xl">
               <div className="flex flex-col sm:text-center sm:mb-0">
                 <div className="mb-8 sm:mb-14 mx-auto">
@@ -103,7 +103,7 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div className="pb-2">
+          <div className="-mt-8 pb-4">
             <ButtonArrowDown />
           </div>
         </div>
