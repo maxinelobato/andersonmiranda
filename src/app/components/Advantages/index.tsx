@@ -1,5 +1,5 @@
-import PriceCards from "../PriceCards";
-import TabsPhases from "../TabsPhases";
+// import PriceCards from "../PriceCards";
+// import TabsPhases from "../TabsPhases";
 
 export default function Advantages() {
   const featuresadvantages = [
@@ -163,9 +163,9 @@ export default function Advantages() {
               ))}
             </div>
 
-            <PriceCards />
+            {/* <PriceCards /> */}
 
-            <div className="max-w-5xl mt-6 md:mx-auto sm:text-center">
+            {/* <div className="max-w-5xl mt-6 md:mx-auto sm:text-center">
               <p className="text-center font-medium text-xs text-white md:text-lg md:block">
                 Entenda como funciona a{" "}
                 <span className="text-orange-500">
@@ -176,7 +176,8 @@ export default function Advantages() {
             </div>
             <div className="max-w-xl mx-auto">
               <TabsPhases />
-            </div>
+            </div> */}
+            
           </div>
         </section>
       </div>
