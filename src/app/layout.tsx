@@ -18,10 +18,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.className}>
-      {/* <meta
+      <meta
         name="facebook-domain-verification"
-        content="0pp7qrk8a62xbewr980vkh2xrevbua"
-      /> */}
+        content="ui4ov4ed8b0qbjttmwxu56nmjetdy3"
+      />
       <Script id="google-tag-manager" strategy="afterInteractive">
         {`
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
