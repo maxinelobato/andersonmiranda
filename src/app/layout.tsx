@@ -3,7 +3,7 @@ import Script from "next/script";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
-const GTM_ID = "GTM-TBN2QTK5";
+const GTM_ID = "GTM-MT55L6B2";
 
 export const metadata = {
   title: "Anderson Miranda",

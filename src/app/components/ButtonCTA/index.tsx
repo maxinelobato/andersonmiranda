@@ -4,8 +4,8 @@ export default function ButtonCTA() {
   return (
     <>
       <button className="btn rounded-lg glass drop-shadow-[5px_5px_15px_rgba(227,80,14,0.8)] text-white bg-gradient-to-r from-red-700 via-orange-500 to-orange-600 font-bold ease-in-out delay-75 hover:transition-all hover:scale-105 duration-300 hover:text-white focus:outline-none focus:ring focus:ring-white active:text-opacity-75 hover:ring hover:ring-white hover:ring-offset-0 btn-md sm:btn-lg md:btn-lg lg:btn-lg">
-        <Link href="https://www.asaas.com/c/jdhffxwrawrxhtlt" target="_blank">
-          junte-se à lista de espera
+        <Link href="https://api.whatsapp.com/send?phone=351933965256&text=Ol%C3%A1%2C%20Dr.%20Anderson!%20Vim%20pelo%20site%20e%20Preciso%20de%20Ajuda%20com%20a%20minha%20Cidadania/Nacionalidade.%20Podemos%20conversar%3F%20" target="_blank">
+          Entre em contato
         </Link>
       </button>
     </>
