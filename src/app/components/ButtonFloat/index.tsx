@@ -1,17 +1,17 @@
-import Image from "next/image";
+import Image from 'next/image'
 
 export default function ButtonFloat() {
   return (
     <>
-      <div className="z-[100] group fixed bottom-4 right-4 p-2 flex items-end justify-end w-24 h-24 hover:-translate-x-0 hover:duration-300 hover:scale-110 hover:transition-all">
-        <div className="flex items-center justify-center z-50 absolute">
+      <div className="group fixed bottom-4 right-4 z-[100] flex h-24 w-24 items-end justify-end p-2 hover:-translate-x-0 hover:scale-110 hover:transition-all hover:duration-300">
+        <div className="absolute z-50 flex items-center justify-center">
           <a
             href="https://api.whatsapp.com/send?phone=5511913541327&text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20uma%20Mesa%20Proprietária%20Americana.%20Podemos%20conversar%3F%20"
-            style={{ textDecoration: "none" }}
+            style={{ textDecoration: 'none' }}
             target="_blank"
           >
             <div
-              className="tooltip tooltip-open tooltip-left tooltip-success text-white"
+              className="tooltip tooltip-success tooltip-left tooltip-open text-white"
               data-tip="Precisa de ajuda?"
             >
               <div className="avatar online">
@@ -30,5 +30,5 @@ export default function ButtonFloat() {
         </div>
       </div>
     </>
-  );
+  )
 }

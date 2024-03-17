@@ -1,15 +1,12 @@
-"use client";
-
-import { WhatsappLogo } from "@phosphor-icons/react";
-import Image from "next/image";
+'use client'
 
 export default function Navbar() {
   return (
     <>
-      <div className="navbar bg-black/10 backdrop-blur-lg z-10 fixed top-0 text-white hover:text-orange-400 focus:text-orange-500">
+      <div className="navbar fixed top-0 z-10 bg-black/10 text-white backdrop-blur-lg hover:text-orange-400 focus:text-orange-500">
         <div className="navbar-start">
           <details className="dropdown">
-            <summary tabIndex={0} className="btn btn-ghost btn-circle m-1">
+            <summary tabIndex={0} className="btn btn-circle btn-ghost m-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -27,7 +24,7 @@ export default function Navbar() {
             </summary>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 bg-black/70 backdrop-blur-lg rounded-box w-52"
+              className="menu dropdown-content rounded-box menu-sm z-[1] mt-3 w-52 bg-black/70 p-2 backdrop-blur-lg"
             >
               <li>
                 <a>Homepage</a>
@@ -42,10 +39,10 @@ export default function Navbar() {
           </details>
         </div>
         <div className="navbar-center">
-          <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <a className="btn btn-ghost text-xl normal-case">daisyUI</a>
         </div>
         <div className="navbar-end">
-          <button className="btn btn-ghost btn-circle">
+          <button className="btn btn-circle btn-ghost">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -210,5 +207,5 @@ export default function Navbar() {
         </div>
       </nav> */}
     </>
-  );
+  )
 }

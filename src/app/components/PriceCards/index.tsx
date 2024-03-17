@@ -1,11 +1,11 @@
-"use client";
+'use client'
 
-import { Tab } from "@headlessui/react";
-import ButtonCTA from "../ButtonCTA";
-import Image from "next/image";
+import { Tab } from '@headlessui/react'
+import ButtonCTA from '../ButtonCTA'
+import Image from 'next/image'
 
 function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(" ");
+  return classes.filter(Boolean).join(' ')
 }
 
 export default function PriceCards() {
@@ -34,22 +34,22 @@ export default function PriceCards() {
         <path d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path>
       </svg>
     ),
-  };
+  }
 
   return (
     <>
       <div className="mx-auto px-4 py-8 sm:px-6 sm:py-12 lg:px-0">
         <Tab.Group>
-          <div className="origin-center w-full max-w-md mx-auto px-2 pt-6 pb-6 sm:px-0">
-            <Tab.List className="flex drop-shadow-2xl space-x-1 rounded-xl bg-black/30 p-1">
+          <div className="mx-auto w-full max-w-md origin-center px-2 pb-6 pt-6 sm:px-0">
+            <Tab.List className="flex space-x-1 rounded-xl bg-black/30 p-1 drop-shadow-2xl">
               <Tab
                 className={({ selected }) =>
                   classNames(
-                    "w-full rounded-lg py-2 text-xs font-medium leading-5 text-orange-500",
-                    "focus:outline-none focus:ring-1 focus:ring-orange-500",
+                    'w-full rounded-lg py-2 text-xs font-medium leading-5 text-orange-500',
+                    'focus:outline-none focus:ring-1 focus:ring-orange-500',
                     selected
-                      ? "bg-black shadow-md shadow-orange-500"
-                      : "text-orange-500 hover:text-white hover:bg-black"
+                      ? 'bg-black shadow-md shadow-orange-500'
+                      : 'text-orange-500 hover:bg-black hover:text-white',
                   )
                 }
               >
@@ -64,11 +64,11 @@ export default function PriceCards() {
               <Tab
                 className={({ selected }) =>
                   classNames(
-                    "w-full rounded-lg py-2 text-xs font-medium leading-5 text-orange-500",
-                    "focus:outline-none focus:ring-1 focus:ring-orange-500",
+                    'w-full rounded-lg py-2 text-xs font-medium leading-5 text-orange-500',
+                    'focus:outline-none focus:ring-1 focus:ring-orange-500',
                     selected
-                      ? "bg-black shadow-md shadow-orange-500"
-                      : "text-orange-500 hover:text-white hover:bg-black"
+                      ? 'bg-black shadow-md shadow-orange-500'
+                      : 'text-orange-500 hover:bg-black hover:text-white',
                   )
                 }
               >
@@ -85,7 +85,7 @@ export default function PriceCards() {
           <Tab.Panels>
             <Tab.Panel>
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 sm:items-center md:gap-8">
-                <div className="rounded-2xl bg-black/40 shadow-inner p-6 sm:px-8 lg:p-12">
+                <div className="rounded-2xl bg-black/40 p-6 shadow-inner sm:px-8 lg:p-12">
                   <div className="text-center">
                     <h2 className="text-lg font-medium text-white/70">
                       Mesa de $100k
@@ -141,7 +141,7 @@ export default function PriceCards() {
                   </div>
                 </div>
 
-                <div className="rounded-2xl bg-black/80 ring-1 ring-orange-500 shadow-lg shadow-orange-400/70 p-6 sm:px-8 lg:p-12">
+                <div className="rounded-2xl bg-black/80 p-6 shadow-lg shadow-orange-400/70 ring-1 ring-orange-500 sm:px-8 lg:p-12">
                   <div className="text-center">
                     <h2 className="text-lg font-medium text-white">
                       Mesa de $200k
@@ -199,7 +199,7 @@ export default function PriceCards() {
                   </div>
                 </div>
 
-                <div className="rounded-2xl bg-black/40 shadow-inner p-6 sm:px-8 lg:p-12">
+                <div className="rounded-2xl bg-black/40 p-6 shadow-inner sm:px-8 lg:p-12">
                   <div className="text-center">
                     <h2 className="text-lg font-medium text-white/70">
                       Mesa de $300k
@@ -267,7 +267,7 @@ export default function PriceCards() {
             <Tab.Panel>
               <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-center md:gap-8">
-                  <div className="rounded-2xl bg-black/40 shadow-inner p-6 sm:px-8 lg:p-12">
+                  <div className="rounded-2xl bg-black/40 p-6 shadow-inner sm:px-8 lg:p-12">
                     <div className="text-center">
                       <h2 className="text-lg font-medium text-white/70">
                         Mesa de €100k
@@ -323,7 +323,7 @@ export default function PriceCards() {
                     </div>
                   </div>
 
-                  <div className="rounded-2xl bg-black/80 ring-1 ring-orange-500 shadow-lg shadow-orange-400/70 p-6 sm:px-8 lg:p-12">
+                  <div className="rounded-2xl bg-black/80 p-6 shadow-lg shadow-orange-400/70 ring-1 ring-orange-500 sm:px-8 lg:p-12">
                     <div className="text-center">
                       <h2 className="text-lg font-medium text-white">
                         Mesa de $200k
@@ -387,5 +387,5 @@ export default function PriceCards() {
         </Tab.Group>
       </div>
     </>
-  );
+  )
 }

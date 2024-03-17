@@ -1,4 +1,4 @@
-"use client";
+'use client'
 
 import {
   motion,
@@ -6,15 +6,15 @@ import {
   domAnimation,
   useTransform,
   useScroll,
-} from "framer-motion";
-import { useEffect } from "react";
+} from 'framer-motion'
+import { useEffect } from 'react'
 
 export default function ProgressScroll() {
-  const { scrollYProgress } = useScroll();
-  const scaleX = useTransform(scrollYProgress, [0, 1], [1, 0]);
+  const { scrollYProgress } = useScroll()
+  const scaleX = useTransform(scrollYProgress, [0, 1], [1, 0])
   useEffect(() => {
-    console.log("scrollYProgress changed");
-  }, [scrollYProgress]);
+    console.log('scrollYProgress changed')
+  }, [scrollYProgress])
 
   return (
     <>
@@ -23,16 +23,16 @@ export default function ProgressScroll() {
           style={{
             zIndex: 100,
             scaleX,
-            position: "fixed",
+            position: 'fixed',
             top: 0,
             left: 0,
             right: 0,
-            height: "4px",
-            borderRadius: "8px",
-            background: "#fff",
+            height: '4px',
+            borderRadius: '8px',
+            background: '#fff',
           }}
         ></motion.div>
       </LazyMotion>
     </>
-  );
+  )
 }
