@@ -1,20 +1,20 @@
-import { Inter } from "next/font/google";
-import Script from "next/script";
-import "./globals.css";
+import { Inter } from 'next/font/google'
+import Script from 'next/script'
+import './globals.css'
 
-const inter = Inter({ subsets: ["latin"] });
-const GTM_ID = "GTM-MT55L6B2";
+const inter = Inter({ subsets: ['latin'] })
+const GTM_ID = 'GTM-MT55L6B2'
 
 export const metadata = {
-  title: "Anderson Miranda",
+  title: 'Anderson Miranda',
   description:
-    "Especialista e Professor no Mercado Financeiro na Comunidade TraderX",
-};
+    'Especialista e Professor no Mercado Financeiro na Comunidade TraderX',
+}
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
     <html lang="en" className={inter.className}>
@@ -40,5 +40,5 @@ export default function RootLayout({
         {children}
       </body>
     </html>
-  );
+  )
 }
